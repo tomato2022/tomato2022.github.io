@@ -76,10 +76,11 @@ body {
 
 html, body, .wrapper {
   height: 100%;
+  background: #282828;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #232323;
+  color: #fff;
   font-weight: normal;
   line-height: 1.2;
   font-family: 'Nunito', sans-serif;
@@ -306,7 +307,7 @@ input {
 }
 
 .bg-gray {
-  background-color: #edf5ff;
+  background-color: #282828;
 }
 
 .bg-gray-hard {
@@ -377,7 +378,7 @@ input {
   z-index: -1;
 }
 
-.shadow.dark-hard::after {
+/*.shadow.dark-hard::after {
   background: #000000 none repeat scroll 0 0;
   content: "";
   height: 100%;
@@ -387,7 +388,7 @@ input {
   top: 0;
   width: 100%;
   z-index: -1;
-}
+}*/
 
 .shadow.light::after {
   background: #ffffff none repeat scroll 0 0;
